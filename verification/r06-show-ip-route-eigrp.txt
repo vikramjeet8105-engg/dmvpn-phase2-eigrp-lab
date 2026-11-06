@@ -1,0 +1,25 @@
+R06#show ip route eigrp
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+       a - application route
+       + - replicated route, % - next hop override, p - overrides from PfR
+
+Gateway of last resort is not set
+
+      10.0.0.0/8 is variably subnetted, 4 subnets, 2 masks
+D        10.1.25.0/24
+           [90/26880512] via 10.1.36.3, 00:28:09, GigabitEthernet1.36
+D        10.1.47.0/24
+           [90/28160512] via 10.1.36.3, 00:28:09, GigabitEthernet1.36
+      150.1.0.0/32 is subnetted, 3 subnets
+D        150.1.5.5 [90/27008512] via 10.1.36.3, 00:28:09, GigabitEthernet1.36
+D        150.1.7.7 [90/28288512] via 10.1.36.3, 00:27:58, GigabitEthernet1.36
+D     192.168.1.0/24
+           [90/26880256] via 10.1.36.3, 00:28:09, GigabitEthernet1.36
+R06#
+R06#

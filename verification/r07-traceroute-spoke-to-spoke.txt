@@ -1,0 +1,12 @@
+R07#traceroute 150.1.6.6
+Type escape sequence to abort.
+Tracing the route to 150.1.6.6
+VRF info: (vrf in name/id, vrf out name/id)
+  1 10.1.47.4 7 msec 4 msec 3 msec
+  2 192.168.1.3 4 msec 2 msec 3 msec
+  3 10.1.36.6 15 msec *  3 msec
+R07#
+R07#
+R07#
+R07#
+R07#
